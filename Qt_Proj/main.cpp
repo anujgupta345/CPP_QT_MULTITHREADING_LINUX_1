@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
 
     Shared_Variable sv;
     sv.show();
-    //Pipe p;
+    Pipe p;
     return a.exec();
 }
