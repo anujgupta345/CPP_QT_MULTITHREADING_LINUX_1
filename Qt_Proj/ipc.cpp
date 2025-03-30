@@ -3,5 +3,5 @@
 IPC::IPC(QWidget *parent)
     : QWidget{parent}
 {
-    //Interface IPC constructor
+    //Interface IPC constructor //
 }
