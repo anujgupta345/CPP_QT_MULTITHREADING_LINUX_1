@@ -58,8 +58,8 @@ void Widget::saveQImageOnDiskUsingLabelAndStyleusingQPainter()
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
-    drawPixmapUsingLabelAndStyleusingQPainter();
-    saveQImageOnDiskUsingLabelAndStyleusingQPainter();
+//    drawPixmapUsingLabelAndStyleusingQPainter();
+//    saveQImageOnDiskUsingLabelAndStyleusingQPainter();
 
 }
 
