@@ -10,7 +10,9 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
-    void drawPixmapUsingLabelAndStyleusingQPainter();
+
+    //to call using invoke method of QMetaobject function should either be Q_INVOKABLE or public slots
+    Q_INVOKABLE void drawPixmapUsingLabelAndStyleusingQPainter();
     void saveQImageOnDiskUsingLabelAndStyleusingQPainter();
 };
 #endif // WIDGET_H
